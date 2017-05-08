@@ -1,0 +1,13 @@
+{
+  "name": "vagrant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rkiel/scratch-api.git",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^1.12.1"
+  },
+  "scripts": {
+    "create": "serverless create --template aws-nodejs"
+  }
+}
