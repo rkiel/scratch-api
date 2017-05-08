@@ -5,9 +5,13 @@
   "repository": "git@github.com:rkiel/scratch-api.git",
   "license": "MIT",
   "devDependencies": {
+    "aws-sdk": "^2.49.0",
     "serverless": "^1.12.1"
   },
   "scripts": {
     "create": "serverless create --template aws-nodejs"
+  },
+  "dependencies": {
+    "uuid": "^3.0.1"
   }
 }
