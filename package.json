@@ -18,7 +18,8 @@
   },
   "scripts": {
     "create": "serverless create --template aws-nodejs",
-    "invokeCreate": "serverless webpack invoke --function create --path event.json"
+    "invokeCreate": "serverless webpack invoke --function create --path event.json",
+    "invokeGet": "serverless webpack invoke --function get --path event2.json"
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
