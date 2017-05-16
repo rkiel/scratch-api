@@ -22,7 +22,8 @@
     "invokeGet": "serverless webpack invoke --function get --path event2.json",
     "invokeList": "serverless webpack invoke --function list --path event3.json",
     "invokeUpdate": "serverless webpack invoke --function update --path event4.json",
-    "invokeDelete": "serverless webpack invoke --function delete --path event5.json"
+    "invokeDelete": "serverless webpack invoke --function delete --path event5.json",
+    "deploy": "serverless deploy"
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
